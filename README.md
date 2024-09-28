@@ -3,7 +3,7 @@ Deploying a deep learning model to Android.
 
 部署深度学习模型到安卓端。
 
-简要说明：模型是图片模型，地址：https://github.com/sunny2109/SAFMN
+简要说明：模型是图片超分模型，地址：https://github.com/sunny2109/SAFMN
 
 1.**转模型**。将训练好的模型文件（.pth）转成ncnn支持的模型文件。
 
