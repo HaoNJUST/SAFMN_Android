@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">空间自适应图像超分</string>
+    <string name="home">主页 </string>
+    <string name="more">更多</string>
+    <string name="github"><a href="https://github.com/sunny2109/SAFMN">https://github.com/sunny2109/SAFMN</a></string>
+    <string name="modelExplaination">SAFMN_L_DF2K_x2,放大2倍；SAFMN_L_Real_x4，放大4倍；SAFMN_L_Real_LSDIR_x4，放大4倍</string>
+    <string name="overview">SAFMN首先使用卷积层将输入的低分辨率图像转换为特征空间，然后使用一系列特征混合模块（FMMs）进行特征提取，
+        最后通过上采样模块重建这些提取的特征。FMM块主要由空间自适应特征调制（SAFM）层和卷积通道混合器（CCM）实现。</string>
+    <string name="other">这款超分辨率模型采用了腾讯优图开源项目 ncnn 进行部署，这使得它在实现上不再依赖第三方库，同时也实现了跨平台操作的便利。
+        在移动端，通过 CPU 运算，该模型的处理速度位于开源框架中的领先水平，这意味着它能够快速高效地处理图像。\n
+    相较于使用云计算服务的商业解决方案，这款模型完全在本地运行图像处理过程。这意味着处理速度不再受限于互联网连接速度，而是主要取决于设备性能和图像大小。
+        尽管处理耗时因设备性能和图像大小而异，但用户可以放心，因为这样的本地处理方式保障了数据隐私和安全性。
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
